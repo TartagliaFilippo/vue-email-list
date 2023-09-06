@@ -26,7 +26,7 @@
   </head>
   <body>
     <div id="app" class="wrapper">
-      <h1>{{ email }}</h1>
+      <h1 v-for="(email, i) of emails">{{ emails[i] }}</h1>
     </div>
   </body>
 </html>
