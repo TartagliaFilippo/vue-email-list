@@ -15,7 +15,7 @@ createApp({
           const randomEmail = response.data.response;
           this.emails.push(randomEmail);
           //console.log(response.data.response);
-          console.log(this.emails);
+          //console.log(this.emails);
         });
     }
   },
